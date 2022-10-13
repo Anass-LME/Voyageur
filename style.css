@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAEBD7;
+}
+
+header {
+    border: 1px dashed black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 90;
+    height: 90;
+    float: left;
+    padding-top: 15;
+    margin-left: 20;
+}
+
+nav li {
+    display: inline;
+    padding-left: 15;
+    color: blue;
+}
+
+.accueil {
+    color: red;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: right;
+    padding: 35;
+}
+
+ul {
+    display: block;
+    padding-inline-start: 40;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 1.2em;
+}
+
+.mtn {
+    margin: auto;
+    box-sizing: border-box;
+    width: 95%;
+    border: 1PX solid transparent;
+    border-radius: 10px;
+    height: 200;
+}
+
+.mountain {
+    width: 100%;
+    height: 200;
+    background-position: center;
+    background-size: contain;
+    background-image: url(Images/banniere.svg);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+
+.trans {
+    background-color: rgba(180, 180, 180, 0.336);
+    height: 50;
+    margin-top: -52;
+    border: 1px solid transparent;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 10px;
+}
+
+.mtn button {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5PX;
+    font-weight: 600;
+    color: white;
+    background-color: #740909;
+    float: right;
+    margin-top: -40;
+    margin-right: 10;
+}
+
+section {
+    height: 450;
+    margin: 0 50;
+}
+
+.gauche {
+    float: left;
+    width: 1100;
+}
+.gauche p {
+    text-align: justify;
+}
+
+.droite {
+    box-sizing: border-box;
+    margin-top: 20;
+    float: right;
+    width: 565;
+    height: 365;
+    border: 1px solid transparent;
+    background-color: #8B8A82;
+    border-radius: 5px;
+    color: white;
+    padding: 0 5;
+}
+
+.droite h2 {
+    text-align: center;
+}
+
+.droite .wa3 {
+    margin: 0 40%;
+    width: 120;
+}
+
+.sm {
+    margin: auto;
+    margin-left: 175;
+}
+
+footer {
+    border: 1px dashed black;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+footer div {
+    display: inline-block;
+    margin-right: 8%;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+footer li {
+    list-style-type: none;
+    margin-left: -20;
+}
+
+footer img {
+    width: 100;
+    border: 3px solid rgb(0, 194, 194);
+}
